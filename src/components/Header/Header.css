@@ -1,0 +1,10 @@
+header{
+    background-color: #444;
+}
+header>.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.headerIMG{
+    width: 50%
+}
