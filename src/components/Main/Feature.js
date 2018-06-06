@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./Feature.css";
+import FeaturedImg from './FeaturedImg'
 const Feature = props => {
   return (
     <div className={[styles.FeaturedItem,styles[props.doActive]].join(" ")}>
-      <img src={props.featureImgSrc} alt="" />
+      <FeaturedImg FeaturedImgClass={props.FeaturedImgClass}/>
       <h2>{props.featureHeader()}</h2>
       <p>{props.featureText}</p>
       <button>Read more</button>

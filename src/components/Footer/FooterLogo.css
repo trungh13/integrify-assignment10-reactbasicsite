@@ -1,0 +1,7 @@
+.FooterLogo{
+    padding:0px 3px;
+    color:#191919
+}
+.FooterLogo:hover{
+    color:lightgray;
+}

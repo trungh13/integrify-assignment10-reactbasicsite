@@ -1,0 +1,8 @@
+.LatestPost{
+    font-style:italic;
+    padding:10px 0px;
+    border-bottom: 1px solid gray;
+}
+.active{
+    color:skyblue;
+}

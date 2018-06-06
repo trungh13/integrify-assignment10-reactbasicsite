@@ -1,4 +1,11 @@
+footer{
+    background-color:#444;
+    color:lightgray;
+    padding:50px 0px 0px 0px;
+}
 :global footer>.container{
     display:grid;
-    grid-template-columns: repeat(4,1fr)
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:10px;
+    padding:20px;
 }

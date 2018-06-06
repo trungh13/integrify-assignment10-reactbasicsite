@@ -1,0 +1,11 @@
+.FeaturedImg{
+    height:60px;
+    width: 60px;
+    background: radial-gradient(circle,gray,#303030,black);
+    border-radius:50%;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:1px;
+}

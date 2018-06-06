@@ -1,5 +1,6 @@
 main {
   background-color: #efefef;
+  color:#191919;
 }
 :global main > .container {
   display: grid;
@@ -8,4 +9,5 @@ main {
                  "component-testimonals component-testimonals component-development";
   grid-row-gap: 50px;
   grid-column-gap:20px;
+  padding-top:50px;
 }

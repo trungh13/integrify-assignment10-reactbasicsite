@@ -18,6 +18,7 @@
   position: absolute;
   bottom: -50px;
   left: 0;
+  z-index: 2;
 }
 h2{
     font-weight: 200;

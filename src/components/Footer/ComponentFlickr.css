@@ -1,0 +1,10 @@
+.flickrDiv{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap:5px;
+}
+.flickrPhoto{
+    height:50px;
+    width: 57px;
+    background-color:#383838;
+}

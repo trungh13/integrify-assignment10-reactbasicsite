@@ -3,7 +3,7 @@ import Feature from "./Feature";
 import styles from "./ComponentFeatured.css"
 const featured = [
   {
-    featureImgSrc: "#",
+    FeaturedImgClass: "fa fa-mobile fa-2x",
     featureHeader: (
       <React.Fragment>
         <span>Superbly </span>responsive
@@ -14,7 +14,7 @@ const featured = [
     doActive: "no"
   },
   {
-    featureImgSrc: "#",
+    FeaturedImgClass: "fa fa-desktop fa-2x",
     featureHeader: (
       <React.Fragment>
         <span>Squeeky </span>clean
@@ -25,7 +25,7 @@ const featured = [
       doActive: "no"
   },
   {
-    featureImgSrc: "#",
+    FeaturedImgClass: "fa fa-laptop fa-2x",
     featureHeader: (
       <React.Fragment>
         <span>Multi </span>purpose
@@ -36,7 +36,7 @@ const featured = [
       doActive: "active"
   },
   {
-    featureImgSrc: "#",
+    FeaturedImgClass: "fa fa-recycle fa-2x",
     featureHeader: (
       <React.Fragment>
         <span>Highly </span>flexible
@@ -54,7 +54,7 @@ const ComponentFeatured = props => {
         <Feature
           key={index}
           active={element.doActive}
-          featureImgSrc={element.featureImgSrc}
+          FeaturedImgClass={element.FeaturedImgClass}
           featureHeader={() => element.featureHeader}
           featureText={element.featureText}
         />
