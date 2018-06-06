@@ -1,10 +1,32 @@
-header{
-    background-color: #444;
+header {
+  background-color: #444;
 }
-header>.container{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
+:global header > .container {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
-.headerIMG{
-    width: 50%
+.HeaderImg {
+  width: stretch;
+}
+.headerDescription {
+    color:#eee;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+h1{
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size:1.8em
+}
+h1 span{ 
+    font-weight: 500;
+    font-style:italic;
+}
+button{
+    padding:10px 25px;
+    font-size:1em;
+    text-transform: uppercase;
+    width: fit-content
 }

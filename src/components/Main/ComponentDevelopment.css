@@ -1,0 +1,15 @@
+.ComponentDevelopment{
+    grid-area:component-development;
+}
+.DevelopmentDivHeading{
+    display:inline-block;
+}
+.DevelopmentDivHeading *{
+    padding:20px;
+    display:inline-block;
+    background-color:#ddd;
+}
+.active {
+    background-color:white;
+}
+.DevelopmentDivContent{}

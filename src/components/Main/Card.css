@@ -1,0 +1,15 @@
+.Card{
+    background-color:white;
+    padding:20px 30px 30px 20px;
+    position: relative;
+    margin-bottom:50px;
+}
+.Card::after {
+    content: "";
+    border-top: 40px solid white;
+    border-right: 40px solid transparent;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    margin-bottom:10px;
+  }

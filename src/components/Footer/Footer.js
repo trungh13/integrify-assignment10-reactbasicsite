@@ -1,8 +1,10 @@
 import React from "react";
+import styles from "./Footer.css"
 const Footer = () => (
-  <footer>  
-  <h1>Footer, yeah Footer</h1>
-    
+  <footer>
+    <div className="container" >
+    dasda
+    </div>
   </footer>
 );
 export default Footer;

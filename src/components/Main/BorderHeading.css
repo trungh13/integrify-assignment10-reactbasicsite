@@ -1,0 +1,15 @@
+.BorderHeading {
+  width: 100%;
+  background: url("../../assets/Border-BG.jpg") repeat-x;
+  background-size: contain;
+  height: 20px;
+  margin-bottom:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  background-color: #efefef;
+  width: fit-content;
+  padding: 0px 20px;
+}

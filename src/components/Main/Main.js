@@ -1,7 +1,23 @@
 import React from "react";
+import styles from "./Main.css";
+import ComponentFeatured from "./ComponentFeatured";
+import ComponentRecentWork from "./ComponentRecentWork";
+import ComponentTestimonals from "./ComponentTestimonals";
+import ComponentDevelopment from "./ComponentDevelopment";
+import BorderHeading from "./BorderHeading";
+import BubbleTag from "../BubbleTag"
+
+
 const Main = () => (
   <main>
-    <h1>yeppie, Main</h1>
+    <BorderHeading />
+    <div className="container">
+      <ComponentFeatured />
+      <ComponentRecentWork />
+      <ComponentTestimonals />
+      <ComponentDevelopment />
+      <BubbleTag type='main' renderText={() => <React.Fragment>Get in touch with us <span>now!</span></React.Fragment>} buttonText="Contact us"/>
+    </div>
   </main>
 );
 export default Main;
