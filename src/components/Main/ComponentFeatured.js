@@ -52,6 +52,7 @@ const ComponentFeatured = props => {
     <div className={styles.ComponentFeatured}>
       {featured.map((element, index) => (
         <Feature
+          className={styles.FeatureItem}
           key={index}
           active={element.doActive}
           FeaturedImgClass={element.FeaturedImgClass}

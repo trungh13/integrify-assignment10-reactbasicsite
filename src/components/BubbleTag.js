@@ -4,7 +4,7 @@ const componentName = props => {
   return (
     <div className={[styles.BubbleTag, styles[props.type]].join(" ")}>
       <h2>{props.renderText()}</h2>
-      <button>{props.buttonText}</button>
+      <button className={styles.BubbleButton}>{props.buttonText}</button>
     </div>
   );
 };

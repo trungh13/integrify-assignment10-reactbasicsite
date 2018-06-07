@@ -7,5 +7,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height:fit-content;
   padding:20px;
+}
+.FooterCredit p{
+    padding:0;
 }

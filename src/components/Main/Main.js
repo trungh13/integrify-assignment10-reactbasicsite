@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./Main.css";
 import ComponentFeatured from "./ComponentFeatured";
 import ComponentRecentWork from "./ComponentRecentWork";
 import ComponentTestimonals from "./ComponentTestimonals";

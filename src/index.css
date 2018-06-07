@@ -14,3 +14,13 @@ body {
   margin: auto;
   padding: 20px 20px 0px 20px;
 }
+button{
+  padding:10px 25px;
+  font-size:1em;
+  text-transform: uppercase;
+  width: fit-content;
+  color:white;
+  background-color:#478cd1;
+  border:none;
+  box-shadow:3px 3px 8px -5px #000;
+}

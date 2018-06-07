@@ -3,12 +3,12 @@ import styles from "./ComponentFooterCredit.css";
 import FooterLogo from "./FooterLogo";
 
 const FooterLogos = [
-  { logoName: "fa fa-twitter-square" },
-  { logoName: "fa fa-facebook-square" },
-  { logoName: "fa fa-vimeo-square" },
-  { logoName: "fa fa-reddit-square" },
-  { logoName: "fa fa-google-plus-square" },
-  { logoName: "fa fa-pinterest-square" }
+  { logoName: "fa fa-twitter-square fa-2x" },
+  { logoName: "fa fa-facebook-square fa-2x" },
+  { logoName: "fa fa-vimeo-square fa-2x" },
+  { logoName: "fa fa-reddit-square fa-2x" },
+  { logoName: "fa fa-google-plus-square fa-2x" },
+  { logoName: "fa fa-pinterest-square fa-2x" }
 ];
 
 const ComponentFooterCredit = () => {

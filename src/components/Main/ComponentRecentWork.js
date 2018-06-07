@@ -1,5 +1,5 @@
 import React from "react";
-import CardWithImg from "./CardWithImg";
+import Card from "./Card";
 import styles from "./ComponentRecentWork.css";
 import recentImgURL from "../../assets/img-placeholder.png";
 import BorderHeading from "./BorderHeading"
@@ -31,10 +31,11 @@ const ComponentRecentWork = props => {
       <BorderHeading heading="Recent works" />
       <div className={styles.ComponentRecentWork}>
         {recentItem.map((element, index) => (
-          <CardWithImg
+          <Card
             key={index}
             CardImg={element.recentImg}
-            parentProps={(element.recentTitle, element.recentContent)}
+            cardHeader={element.recentTitle}
+            cardContent={element.recentContent}
           />
         ))}
       </div>

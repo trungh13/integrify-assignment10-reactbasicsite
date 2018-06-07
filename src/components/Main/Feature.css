@@ -1,14 +1,46 @@
+@keyframes rotateCW {
+    0% { transform: rotate(0deg); }
+    90% { transform: rotate(355deg); }
+    100% { transform: rotate(360deg); }
+  }
 .FeaturedItem{
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding:10px 0px;
 }
+.FeaturedItem:hover{
+    background-color:white;
+    justify-content: flex-start;
+    position: relative;
+    box-shadow:0px 1px 15px #ccc;
+}
+.FeaturedItem:hover i{
+    background:radial-gradient(circle,skyblue,blue);
+    animation: rotateCW 1s;
+}
+.FeaturedItem:hover:after {
+    content: "";
+    border-top: 40px solid white;
+    border-right: 40px solid transparent;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    margin-bottom:10px;
+  }
 h2{
     font-size:1.4em;
     padding:10px 0px;
 }
 p{
     padding-bottom:10px;
+}
+.FeaturedItem:hover button{
+    display:none;
+}
+.featureHeading{
+    text-transform: uppercase;
+    font-size:1.2em;
 }

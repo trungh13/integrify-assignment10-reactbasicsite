@@ -5,5 +5,5 @@
 .ComponentTestimonals {
   display: grid;
   grid-template-areas: "1fr 1fr" "1fr 1fr";
-  grid-gap: 5px;
+  grid-gap: 20px;
 }
