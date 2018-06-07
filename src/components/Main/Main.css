@@ -2,7 +2,7 @@ main {
   background-color: #efefef;
   color:#191919;
 }
-:global main > .container {
+.MainContainer{
   display: grid;
   grid-template: "component-featured component-featured component-featured" 
                  "component-recentwork component-recentwork component-recentwork" 
